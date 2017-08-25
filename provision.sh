@@ -6,6 +6,14 @@ brew install git
 git config --global user.name "btaba"
 git config --global credential.helper osxkeychain
 
+# scd
+git clone https://github.com/pavoljuhas/smart-change-directory
+sudo cp smart-change-directory/bin/scd /usr/local/bin
+scd -ar ~
+
+# Kube
+brew install kubectl
+
 # Bash Autocomplete
 brew install bash-completion
 brew tap homebrew/completions
