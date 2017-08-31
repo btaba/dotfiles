@@ -1,5 +1,6 @@
 # Brew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew install watch
 
 # Git
 brew install git
@@ -22,3 +23,5 @@ brew tap homebrew/completions
 curl -O https://repo.continuum.io/archive/Anaconda3-4.4.0-MacOSX-x86_64.sh
 bash Anaconda3-4.4.0-MacOSX-x86_64.sh
 
+# rclone
+brew install rclone
