@@ -14,7 +14,8 @@
 
 	# Show verbose output about tags, branches or remotes
 	tags = tag -l
-	b = branch -a
+	ba = branch -a
+    b = branch
 	remotes = remote -v
 
 	# List aliases
