@@ -44,6 +44,7 @@ if [[ $REPLY =~ ^[Yy]$ ]]; then
 	sudo cp smart-change-directory/bin/scd /usr/local/bin
 	cd -
 	scd -ar ~
+	source ~/.bash_profile
 fi;
 
 # Conda

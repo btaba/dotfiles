@@ -2,6 +2,7 @@
 alias g='git'
 alias gs='g s'
 alias ls='ls -aGFh'
+alias ld='ls -d */'
 
 # MAC utilities
 alias sleepscr='pmset displaysleepnow'
