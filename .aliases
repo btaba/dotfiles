@@ -1,5 +1,7 @@
 # git
-alias ls='ls -GFh'
+#alias g='git'
+alias gs='g s'
+alias ls='ls -aGFh'
 
 # MAC utilities
 alias sleepscr='pmset displaysleepnow'
