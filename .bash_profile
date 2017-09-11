@@ -1,6 +1,9 @@
 # Add `~/bin` to the `$PATH`
 export PATH="$HOME/bin:$PATH";
 
+# Anaconda
+export PATH="$HOME/anaconda3/bin:$PATH"
+
 # scd
 source $HOME/smart-change-directory/shellrcfiles/bashrc_scd
 
