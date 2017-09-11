@@ -1,5 +1,5 @@
 # git
-#alias g='git'
+alias g='git'
 alias gs='g s'
 alias ls='ls -aGFh'
 
