@@ -2,7 +2,7 @@
 
 cd "$(dirname "${BASH_SOURCE}")";
 
-#git pull origin master;
+git pull origin master;
 
 function doIt() {
 	rsync --exclude ".git/" \
@@ -39,6 +39,7 @@ read -p "Install scd? (y/n) " -n 1;
 echo "";
 if [[ $REPLY =~ ^[Yy]$ ]]; then
 	cd ~
+	rm -rf smart-change-directory
 	git clone https://github.com/pavoljuhas/smart-change-directory
 	sudo cp smart-change-directory/bin/scd /usr/local/bin
 	cd -
