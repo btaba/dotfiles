@@ -21,7 +21,6 @@ brew install gnu-sed --with-default-names
 # running `chsh`.
 brew install bash
 brew install bash-completion2
-brew tap homebrew/completions
 
 # Switch to using brew-installed bash as default shell
 if ! fgrep -q '/usr/local/bin/bash' /etc/shells; then
