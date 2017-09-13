@@ -1,7 +1,7 @@
 # git
 alias g='git'
 alias gs='g s'
-alias gb='g ba'
+alias gb='g b'
 alias ls='ls -aGFh'
 alias ld='ls -d */'
 
