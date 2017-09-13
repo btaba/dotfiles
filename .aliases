@@ -5,6 +5,9 @@ alias gb='g b'
 alias ls='ls -aGFh'
 alias ld='ls -d */'
 
+# conda
+alias workon='source activate'
+
 # MAC utilities
 alias sleepscr='pmset displaysleepnow'
 
