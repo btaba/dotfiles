@@ -48,8 +48,6 @@ brew install ack
 brew install git
 brew install git-lfs
 brew install p7zip
-brew install rlwrap
-brew install ssh-copy-id
 brew install tree
 brew install watch
 brew install rclone
