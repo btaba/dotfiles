@@ -8,7 +8,7 @@ export PATH="$HOME/anaconda3/bin:$PATH"
 source $HOME/smart-change-directory/shellrcfiles/bashrc_scd
 
 # Load the shell dotfiles, and then some:
-for file in ~/.{sh_prompt,exports,aliases,functions}; do
+for file in ~/.{sh_prompt,exports,aliases,functions,extras}; do
 	[ -r "$file" ] && [ -f "$file" ] && source "$file";
 done;
 unset file;

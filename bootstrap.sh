@@ -8,9 +8,10 @@ function doIt() {
 	rsync --exclude ".git/" \
 		--exclude ".DS_Store" \
 		--exclude ".osx" \
-                --exclude "*.sh" \
+        --exclude "*.sh" \
 		--exclude "README.md" \
 		--exclude "LICENSE-MIT.txt" \
+		--exclude ".gitignore" \
 		-avh --no-perms . ~;
 	source ~/.bashrc;
 	source ~/.bash_profile;

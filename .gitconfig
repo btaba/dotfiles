@@ -15,16 +15,11 @@
 	# Show verbose output about tags, branches or remotes
 	tags = tag -l
 	ba = branch -a
-    b = branch
+	b = branch
 	remotes = remote -v
 
 	# List aliases
 	aliases = config --get-regexp alias
-
-[user]
-
-	name = btaba
-	email = btabanpour@gmail.com
 
 [credential]
 
