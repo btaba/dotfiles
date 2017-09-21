@@ -53,6 +53,7 @@ brew install watch
 brew install rclone
 brew install kubectl
 brew install cmake
+brew install htop
 
 # Remove outdated versions from the cellar.
 brew cleanup
