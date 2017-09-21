@@ -35,6 +35,7 @@ brew install wget --with-iri
 brew install gnupg
 
 # Install more recent versions of some macOS tools.
+brew cask install xquartz
 brew install vim --with-override-system-vi --with-client-server
 brew install grep
 brew install openssh
