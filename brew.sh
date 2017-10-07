@@ -54,6 +54,7 @@ brew install rclone
 brew install kubectl
 brew install cmake
 brew install htop
+brew install ffmpeg
 
 # Remove outdated versions from the cellar.
 brew cleanup
