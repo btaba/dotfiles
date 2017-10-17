@@ -49,3 +49,13 @@ function o() {
 function tre() {
 	tree -aC -I '.git|node_modules|bower_components' --dirsfirst "$@" | less -FRNX;
 }
+
+# switch kube contexts
+kctx() {
+    if [ "$#" == 0 ]
+    then
+        kubectl config get-contexts
+    else
+        kubectl config use-context "$@"
+    fi
+}
