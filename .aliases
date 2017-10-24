@@ -2,7 +2,7 @@
 alias g='git'
 alias gs='g s'
 alias gb='g b'
-alias ls='ls -aGFh'
+alias ls='ls -GFh'
 alias ld='ls -d */'
 
 # conda
