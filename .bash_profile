@@ -44,7 +44,7 @@ fi;
 [ -e "$HOME/.ssh/config" ] && complete -o "default" -o "nospace" -W "$(grep "^Host" ~/.ssh/config | grep -v "[?*]" | cut -d " " -f2- | tr ' ' '\n')" scp sftp ssh;
 
 # Fix git config based on Platform
-if [[ $(uname -s) -eq 'Linux' ]]; then
+if [[ $(uname -s) = 'Linux' ]]; then
 	helper='cache'
 else
 	helper='osxkeychain'
