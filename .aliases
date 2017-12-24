@@ -13,3 +13,6 @@ alias sleepscr='pmset displaysleepnow'
 
 # Kubernetes
 alias k='kubectl'
+
+# Python
+alias pyi='python setup.py install'
