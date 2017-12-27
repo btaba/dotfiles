@@ -13,3 +13,11 @@ alias sleepscr='pmset displaysleepnow'
 
 # Kubernetes
 alias k='kubectl'
+
+# Docker
+# Stop all containers
+alias sc='docker kill $(docker ps -q)'
+# Kill all containers
+alias kc='docker rm $(docker ps -a -q)'
+# Remove all images
+alias ri='docker rmi $(docker images -q)'
