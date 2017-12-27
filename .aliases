@@ -16,11 +16,11 @@ alias k='kubectl'
 
 # Docker
 # Stop all containers
-alias sc='docker kill $(docker ps -q)'
+alias dsc='docker kill $(docker ps -q)'
 # Kill all containers
-alias kc='docker rm $(docker ps -a -q)'
+alias dkc='docker rm $(docker ps -a -q)'
 # Remove all images
-alias ri='docker rmi $(docker images -q)'
+alias dri='docker rmi $(docker images -q)'
 
 # Python
 alias pyi='python setup.py install'
