@@ -21,3 +21,6 @@ alias sc='docker kill $(docker ps -q)'
 alias kc='docker rm $(docker ps -a -q)'
 # Remove all images
 alias ri='docker rmi $(docker images -q)'
+
+# Python
+alias pyi='python setup.py install'
