@@ -45,7 +45,7 @@ fi;
 
 # Fix git config based on Platform
 if [[ $(uname -s) = 'Linux' ]]; then
-	helper='cache'
+	helper='store'
 else
 	helper='osxkeychain'
 fi
