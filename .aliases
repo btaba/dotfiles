@@ -4,6 +4,7 @@ alias gs='g s'
 alias gb='g b'
 alias ls='ls -GFh'
 alias ld='ls -d */'
+alias rm='rm -i'
 
 # conda
 alias workon='source activate'
