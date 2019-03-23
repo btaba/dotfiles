@@ -4,6 +4,7 @@ alias gs='g s'
 alias gb='g b'
 alias ls='ls -GFh'
 alias ld='ls -d */'
+# alias rm='rm -i'
 
 # conda
 alias workon='source activate'
@@ -13,6 +14,14 @@ alias sleepscr='pmset displaysleepnow'
 
 # Kubernetes
 alias k='kubectl'
+
+# Docker
+# Stop all containers
+alias dsc='docker kill $(docker ps -q)'
+# Kill all containers
+alias dkc='docker rm $(docker ps -a -q)'
+# Remove all images
+alias dri='docker rmi $(docker images -q)'
 
 # Python
 alias pyi='python setup.py install'
